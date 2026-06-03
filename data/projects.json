@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Your Project Title 1",
+    "category": "portfolio",
+    "description": "Replace this description with details of your coding asset. Let buyers know about key modules and system designs.",
+    "tags": ["HTML5", "CSS3", "JS"],
+    "price": "$29",
+    "featured": true,
+    "demoUrl": "https://your-preview-url.com",
+    "getCodeUrl": "https://your-purchase-url.com",
+    "gradientColors": ["#8b5cf6", "#06b6d4"]
+  },
+  {
+    "id": 2,
+    "title": "Your Project Title 2",
+    "category": "portfolio",
+    "description": "Replace this description with details of your coding asset. Let buyers know about key modules and system designs.",
+    "tags": ["HTML5", "CSS3", "JS"],
+    "price": "$39",
+    "featured": true,
+    "demoUrl": "https://your-preview-url.com",
+    "getCodeUrl": "https://your-purchase-url.com",
+    "gradientColors": ["#ec4899", "#8b5cf6"]
+  },
+  {
+    "id": 3,
+    "title": "Your Project Title 3",
+    "category": "portfolio",
+    "description": "Replace this description with details of your coding asset. Let buyers know about key modules and system designs.",
+    "tags": ["HTML5", "CSS3", "JS"],
+    "price": "$49",
+    "featured": true,
+    "demoUrl": "https://your-preview-url.com",
+    "getCodeUrl": "https://your-purchase-url.com",
+    "gradientColors": ["#06b6d4", "#ec4899"]
+  }
+]
