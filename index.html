@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Premium SEO Optimization -->
+  <title>MahadX Projects | Premium Code Marketplace & Developer Portfolio</title>
+  <meta name="description" content="Explore and acquire high-quality, production-ready coding projects. Premium dark glassmorphism layouts, clean structures, and full developer documentation.">
+  <meta name="keywords" content="coding projects, SaaS templates, responsive UI, glassmorphism design, buy website templates, HTML CSS JS, developer portfolio">
+  <meta name="author" content="MahadX">
+  <link rel="canonical" href="https://mahadx-projects.pages.dev">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mahadx-projects.pages.dev">
+  <meta property="og:title" content="MahadX Projects | Premium Code Marketplace & Developer Portfolio">
+  <meta property="og:description" content="Explore and acquire high-quality, production-ready coding projects with interactive live previews.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1200&auto=format&fit=crop">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://mahadx-projects.pages.dev">
+  <meta property="twitter:title" content="MahadX Projects | Premium Code Marketplace & Developer Portfolio">
+  <meta property="twitter:description" content="Explore and acquire high-quality, production-ready coding projects with interactive live previews.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
+
+  <!-- FontAwesome Icons & Custom Fonts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <!-- CSS Stylesheet link -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Preloader Screen -->
+  <div id="preloader">
+    <div class="loader-spinner"></div>
+    <div class="loader-text">LOADING MAHADX PROJECTS</div>
+  </div>
+
+  <!-- Background Particle Canvas -->
+  <canvas id="bg-canvas"></canvas>
+
+  <!-- Navigation Header -->
+  <header>
+    <div class="nav-container">
+      <a href="#" class="logo">
+        <span class="logo-dot"></span> MahadX Projects
+      </a>
+      <ul class="nav-menu">
+        <li><a href="#hero" class="nav-link active">Home</a></li>
+        <li><a href="#featured" class="nav-link">Featured</a></li>
+        <li><a href="#projects" class="nav-link">Marketplace</a></li>
+        <li><a href="#why-buy" class="nav-link">Why Us</a></li>
+        <li><a href="#faq" class="nav-link">FAQ</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="#projects" class="nav-btn">View Projects</a></li>
+      </ul>
+      <button class="mobile-toggle" aria-label="Toggle menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="hero-glow-1"></div>
+    <div class="hero-glow-2"></div>
+    <div class="hero-container">
+      <div class="hero-content reveal">
+        <div class="hero-badge">
+          <i class="fa-solid fa-bolt"></i> Modern 2026 Collection Live
+        </div>
+        <h1 class="hero-title">
+          Acquire Premium
+        </h1>
+        <p class="hero-tagline">
+          Elevate your portfolio or jumpstart your next software launch with our meticulously crafted coding assets, featuring rich dark glassmorphic layouts and ready-to-deploy structures.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn-primary">
+            View Projects <i class="fa-solid fa-arrow-right"></i>
+          </a>
+          <a href="#why-buy" class="btn-secondary">
+            Why Buy My Code
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Projects Section (Showcase 6 large premium project cards) -->
+  <section id="featured" class="section">
+    <div class="section-header reveal">
+      <span class="section-subtitle">Handpicked</span>
+      <h2 class="section-title">Featured Spotlights</h2>
+      <p class="section-desc">Experience six of our most premium, performance-optimized template applications featuring rich user interfaces.</p>
+    </div>
+    <div class="featured-grid" id="featured-projects-container">
+      <!-- Generated dynamically in script.js -->
+    </div>
+  </section>
+
+  <!-- All Projects Section (Responsive Grid layout with easy future expansion) -->
+  <section id="projects" class="section">
+    <div class="section-header reveal">
+      <span class="section-subtitle">Catalog</span>
+      <h2 class="section-title">Explore All Projects</h2>
+      <p class="section-desc">Browse our full suite of premium application mockups. Filter by category to locate the precise code assets you require.</p>
+    </div>
+
+    <!-- Category Filter Tabs -->
+    <div class="filter-tabs reveal">
+      <button class="filter-tab active" data-category="all">All Assets</button>
+      <button class="filter-tab" data-category="saas">SaaS UI</button>
+      <button class="filter-tab" data-category="ecommerce">E-Commerce</button>
+      <button class="filter-tab" data-category="portfolio">Portfolios</button>
+      <button class="filter-tab" data-category="productivity">Productivity</button>
+      <button class="filter-tab" data-category="web3">Web3</button>
+    </div>
+
+    <div class="all-projects-grid" id="all-projects-container">
+      <!-- Generated dynamically in script.js -->
+    </div>
+  </section>
+
+  <!-- Why Buy My Projects Section -->
+  <section id="why-buy" class="section">
+    <div class="section-header reveal">
+      <span class="section-subtitle">Benefits</span>
+      <h2 class="section-title">Why Acquire My Projects?</h2>
+      <p class="section-desc">Every line of code is written to ensure top efficiency, flexibility, and stunning user feedback.</p>
+    </div>
+    
+    <div class="features-grid">
+      <div class="glass-panel feature-card reveal">
+        <div class="feature-icon-wrapper">
+          <i class="fa-solid fa-code"></i>
+        </div>
+        <h3>Clean Code</h3>
+        <p>Strictly structured, commented, and linted. Free from messy scripts and legacy wrappers, facilitating rapid refactoring and scalability.</p>
+      </div>
+
+      <div class="glass-panel feature-card reveal reveal-delay-1">
+        <div class="feature-icon-wrapper">
+          <i class="fa-solid fa-mobile-screen-button"></i>
+        </div>
+        <h3>Responsive Design</h3>
+        <p>Pixel-perfect display scaling across mobile, tablet, laptop, and ultra-wide screens. Flexbox and CSS Grid architecture throughout.</p>
+      </div>
+
+      <div class="glass-panel feature-card reveal reveal-delay-2">
+        <div class="feature-icon-wrapper">
+          <i class="fa-solid fa-sliders"></i>
+        </div>
+        <h3>Easy Customization</h3>
+        <p>Built with robust CSS properties and modern dynamic setups, letting you tweak variables, colors, and layouts within seconds.</p>
+      </div>
+    </div>
+
+    <div class="features-grid-row-2">
+      <div class="glass-panel feature-card reveal">
+        <div class="feature-icon-wrapper">
+          <i class="fa-solid fa-wand-magic-sparkles"></i>
+        </div>
+        <h3>Modern UI</h3>
+        <p>Styled under a gorgeous dark glassmorphic palette, neon accent glows, floating states, and subtle transitions that capture immediate attention.</p>
+      </div>
+
+      <div class="glass-panel feature-card reveal reveal-delay-1">
+        <div class="feature-icon-wrapper">
+          <i class="fa-solid fa-book-open"></i>
+        </div>
+        <h3>Documentation Included</h3>
+        <p>Every asset is bundled with a clear, step-by-step setup guide covering configuration, asset mapping, and deployment parameters.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section id="faq" class="section">
+    <div class="section-header reveal">
+      <span class="section-subtitle">Inquiries</span>
+      <h2 class="section-title">Frequently Asked Questions</h2>
+      <p class="section-desc">Got questions about licensing, updates, or custom modifications? We have outlined the essentials below.</p>
+    </div>
+
+    <div class="faq-accordion reveal">
+      <div class="faq-item">
+        <div class="faq-header">
+          <h3 class="faq-question">What format do I receive my coding projects in?</h3>
+          <span class="faq-icon"><i class="fa-solid fa-chevron-down"></i></span>
+        </div>
+        <div class="faq-body">
+          <div class="faq-answer">
+            You will receive a structured ZIP file containing production-ready code files (HTML, CSS, JavaScript, assets), along with a markdown-based Readme guide containing integration instructions.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-header">
+          <h3 class="faq-question">Can I use these templates for commercial client sites?</h3>
+          <span class="faq-icon"><i class="fa-solid fa-chevron-down"></i></span>
+        </div>
+        <div class="faq-body">
+          <div class="faq-answer">
+            Yes, our standard developer license allows you to deploy these templates for both personal projects and commercial client portals. Reselling the template files directly as standalone marketplace assets is strictly prohibited.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-header">
+          <h3 class="faq-question">Are future updates to the projects included?</h3>
+          <span class="faq-icon"><i class="fa-solid fa-chevron-down"></i></span>
+        </div>
+        <div class="faq-body">
+          <div class="faq-answer">
+            Absolutely! Once you purchase a project code package, all future releases, design adjustments, and framework update patches for that item are completely free to download from your client terminal.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-header">
+          <h3 class="faq-question">Can I request custom feature additions or design tweaks?</h3>
+          <span class="faq-icon"><i class="fa-solid fa-chevron-down"></i></span>
+        </div>
+        <div class="faq-body">
+          <div class="faq-answer">
+            Yes, I offer tailor-made customization services. Feel free to submit your project requirements using the contact form below, and we can discuss feature implementations and project timelines.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="section-header reveal">
+      <span class="section-subtitle">Reach Out</span>
+      <h2 class="section-title">Start a Conversation</h2>
+      <p class="section-desc">Have a specific feature request or interested in custom build services? Let's collaborate.</p>
+    </div>
+
+    <div class="contact-container reveal">
+      <div class="glass-panel contact-card">
+        <form class="contact-form" id="contact-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">FULL NAME</label>
+              <input type="text" id="name" class="form-input" placeholder="e.g. John Doe" required>
+            </div>
+            <div class="form-group">
+              <label for="email">EMAIL ADDRESS</label>
+              <input type="email" id="email" class="form-input" placeholder="e.g. john@example.com" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject">PROJECT INQUIRY TYPE</label>
+            <input type="text" id="subject" class="form-input" placeholder="e.g. Custom SaaS Dashboard build" required>
+          </div>
+          <div class="form-group">
+            <label for="message">YOUR MESSAGE</label>
+            <textarea id="message" class="form-input" placeholder="Please outline details about your plan or template inquiries..." required></textarea>
+          </div>
+          <button type="submit" class="btn-submit">
+            Send Inquiry <i class="fa-solid fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Fullscreen Live Demo Modal System -->
+  <div class="demo-modal" id="demo-modal">
+    <div class="glass-panel modal-container">
+      <div class="modal-header">
+        <div class="modal-title-area">
+          <div class="logo-dot"></div>
+          <h2 class="modal-title" id="modal-title">Project Live Demo</h2>
+        </div>
+        <!-- Device preview switcher -->
+        <div class="modal-device-controls">
+          <button class="device-btn active" data-device="desktop" title="Desktop view">
+            <i class="fa-solid fa-desktop"></i>
+          </button>
+          <button class="device-btn" data-device="tablet" title="Tablet view">
+            <i class="fa-solid fa-tablet-screen-button"></i>
+          </button>
+          <button class="device-btn" data-device="mobile" title="Mobile view">
+            <i class="fa-solid fa-mobile-screen-button"></i>
+          </button>
+        </div>
+        <button class="modal-close-btn" onclick="closeDemoModal()" aria-label="Close modal">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      
+      <div class="modal-iframe-wrapper desktop" id="iframe-wrapper">
+        <!-- Interactive loader -->
+        <div class="iframe-loader" id="iframe-loader">
+          <div class="loader-spinner" style="margin-bottom: 0;"></div>
+          <p style="font-size: 0.9rem; color: var(--text-muted);">Syncing Sandbox Sandbox...</p>
+        </div>
+        <!-- The live demo iframe container -->
+        <iframe id="demo-iframe" class="modal-iframe" src="about:blank" title="Project live sandbox frame"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-main">
+        <div class="footer-info">
+          <a href="#" class="logo">
+            <span class="logo-dot"></span> MahadX Projects
+          </a>
+          <p>Acquire and deploy state of the art web interfaces, SaaS dashboards, and responsive marketplace modules. Engineered for optimal speed, layout beauty, and modular customization.</p>
+          <div class="footer-socials">
+            <a href="#" class="social-link" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-link" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="social-link" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="mailto:info@mahadx.com" class="social-link" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-links">
+          <div class="footer-col">
+            <h4>Quick Nav</h4>
+            <ul>
+              <li><a href="#hero">Home</a></li>
+              <li><a href="#featured">Featured Spotlights</a></li>
+              <li><a href="#projects">Marketplace</a></li>
+              <li><a href="#why-buy">Why Acquire Code</a></li>
+            </ul>
+          </div>
+          
+          <div class="footer-col">
+            <h4>Inquiries</h4>
+            <ul>
+              <li><a href="#faq">Frequently Asked Questions</a></li>
+              <li><a href="#contact">Hire Custom Services</a></li>
+              <li><a href="#">Developer License</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2026 MahadX Projects. All developer rights reserved.</p>
+        <p>Optimized for <i class="fa-solid fa-cloud-bolt" style="color: #f6821f;"></i> Cloudflare Pages</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Link Javascript file -->
+  <script src="script.js" defer></script>
+</body>
+</html>
