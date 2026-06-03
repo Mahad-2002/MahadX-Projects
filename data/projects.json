@@ -1,11 +1,11 @@
 [
   {
     "id": 1,
-    "title": "Your Project Title 1",
-    "category": "portfolio",
-    "description": "Replace this description with details of your coding asset. Let buyers know about key modules and system designs.",
+    "title": "Happy Birthday Wish",
+    "category": "Web Project",
+    "description": "By this project you will wish your friends",
     "tags": ["HTML5", "CSS3", "JS"],
-    "price": "$29",
+    "price": "$19",
     "featured": true,
     "demoUrl": "https://your-preview-url.com",
     "getCodeUrl": "https://your-purchase-url.com",
